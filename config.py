@@ -31,4 +31,11 @@ tank = {'speed':10,  #Скорость,
                      'exp':0 #опыт,
                     }
 
+#Враги для боя
+
+slime = {'damage':2, 'hp':50, 'protection': 0}
+goblin = {'damage':6, 'hp':150, 'protection': 10}
+orc = {'damage':10, 'hp':250, 'protection': 20}
+spectator = {'damage':50, 'hp':1050, 'protection': 50}
+
 

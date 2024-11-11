@@ -1,14 +1,14 @@
 class Hero:
-    def init(self, lvl, name, last_name, lor, history, hp, old, spells,radius, weaknesses, speed, intelligence, power, agility, lucky, power_damage, exp):
-        self.lvl  = lvl #Уровень,
+    def init(self, name, last_name, lor, history, old, weaknesses, spells, speed, intelligence, power, agility, lucky, power_damage, exp):
+        self.lvl  = 1 #Уровень,
         self.name = name #имя,
         self.last_name = last_name # прозвище,
         self.lor = lor #происхождение;
         self.history = history #Принадлежность,
-        self.hp = hp #Здоровье,
+        self.hp = 50 #Здоровье,
         self.old = old #возраст,
         self.spells = spells #Умения и способности,
-        self.radius = radius#Радиус поражения/атаки,
+        self.radius = 50 #Радиус поражения/атаки,
         self.weaknesses = weaknesses #Слабые стороны(список, словарь),
         self.gender = None #ПОЛ??
         self.attr = {'speed':speed,  #Скорость,
